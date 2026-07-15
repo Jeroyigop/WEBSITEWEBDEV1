@@ -1,0 +1,81 @@
+{
+  "siteTitle": "My Dynamic Portfolio",
+  "navigation": [
+    { "label": "Home", "href": "#home" },
+    { "label": "About", "href": "#about" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Education", "href": "#education" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "hero": {
+    "image": "me.jpg",
+    "name": "Jerie Corales",
+    "subtitle": "Aspiring Web Developer",
+    "description": "I build responsive websites using HTML, CSS, and JavaScript.",
+    "buttonText": "View Projects",
+    "buttonHref": "#projects"
+  },
+  "about": {
+    "title": "About Me",
+    "text": "I am a Bachelor of Science in Information Technology student passionate about web development, UI/UX design, and programming. I enjoy learning new technologies and building responsive, user-friendly websites."
+  },
+  "skills": [
+    { "name": "HTML", "level": 70 },
+    { "name": "CSS", "level": 65 },
+    { "name": "JavaScript", "level": 65 },
+    { "name": "Java", "level": 65 },
+    { "name": "Figma", "level": 85 },
+    { "name": "Git", "level": 60 }
+  ],
+  "projects": [
+    {
+      "title": "Portfolio Website",
+      "description": "A responsive personal portfolio website built using HTML, CSS, and JavaScript.",
+      "image": "https://placehold.co/300x180/2563eb/ffffff?text=Portfolio+Website",
+      "link": "#"
+    },
+    {
+      "title": "Student Management System",
+      "description": "A Java application that manages student information.",
+      "image": "https://placehold.co/300x180/2563eb/ffffff?text=Student+System",
+      "link": "#"
+    },
+    {
+      "title": "UI Prototype",
+      "description": "A mobile application prototype designed using Figma.",
+      "image": "https://placehold.co/300x180/2563eb/ffffff?text=UI+Prototype",
+      "link": "#"
+    }
+  ],
+  "education": [
+    {
+      "year": "2019-2023",
+      "school": "Saint Anthony Montessori Educational Inc."
+    },
+    {
+      "year": "2023-2024",
+      "school": "Saint Anthony Montessori Educational Inc."
+    },
+    {
+      "year": "2025-2026",
+      "school": "Lorma Colleges"
+    }
+  ],
+  "contact": {
+    "title": "Contact Me",
+    "info": [
+      { "icon": "fas fa-envelope", "value": "jerie.corales@lorma.edu " },
+      { "icon": "fas fa-phone", "value": "09123456789" },
+      { "icon": "fab fa-github", "value": "github.com/jeroy" },
+      { "icon": "fab fa-facebook", "value": "facebook.com/jeroy" }
+    ],
+    "form": {
+      "namePlaceholder": "Your Name",
+      "emailPlaceholder": "Your Email",
+      "messagePlaceholder": "Your Message",
+      "buttonText": "Send Message"
+    }
+  },
+  "footer": "© {{year}} Jeroy Igop | All Rights Reserved"
+}
